@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">ProCalculator</string>
+    <string name="hintInputNumbersET">Введите данные</string>
+    <string name="textResultTV">Результат</string>
+    <string name="textDiffBTN">-</string>
+    <string name="textOneBTN">1</string>
+    <string name="textTwoBTN">2</string>
+    <string name="textThreeBTN">3</string>
+    <string name="textFourBTN">4</string>
+    <string name="textFiveBTN">5</string>
+    <string name="textSixBTN">6</string>
+    <string name="textSevenBTN">7</string>
+    <string name="textEightBTN">8</string>
+    <string name="textNineBTN">9</string>
+    <string name="textZeroBTN">0</string>
+    <string name="textMultBTN">*</string>
+    <string name="textSumBTN">+</string>
+    <string name="textDivBTN">/</string>
+    <string name="textResultBTN">=</string>
+    <string name="textResetBTN">reset</string>
+</resources>

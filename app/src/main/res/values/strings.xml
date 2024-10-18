@@ -18,4 +18,5 @@
     <string name="textDivBTN">/</string>
     <string name="textResultBTN">=</string>
     <string name="textResetBTN">reset</string>
+    <string name="titleMMExit">Выход</string>
 </resources>

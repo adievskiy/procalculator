@@ -2,6 +2,8 @@ package com.example.procalculator
 
 import android.annotation.SuppressLint
 import android.os.Bundle
+import android.view.Menu
+import android.view.MenuItem
 import android.view.View
 import android.widget.Button
 import android.widget.EditText
@@ -48,6 +50,8 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
         toolbarMain = findViewById(R.id.toolbarMain)
         setSupportActionBar(toolbarMain)
         title = "Калькулятор ПРО"
+        toolbarMain.setLogo(R.drawable.ic_calculate)
+
 
         inputNumbersET = findViewById(R.id.inputNumbersET)
         resultTV = findViewById(R.id.resultTV)
@@ -68,6 +72,18 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
         multBTN = findViewById(R.id.multBTN)
         divBTN = findViewById(R.id.divBTN)
 
+    }
+
+    override fun onCreateOptionsMenu(menu: Menu?): Boolean {
+        menuInflater.inflate(R.menu.main_menu, menu)
+        return super.onCreateOptionsMenu(menu)
+    }
+
+    override fun onOptionsItemSelected(item: MenuItem): Boolean {
+        when (item.itemId) {
+            R.id.mainMenuExit -> finish()
+        }
+        return super.onOptionsItemSelected(item)
     }
 
     override fun onClick(v: View?) {
